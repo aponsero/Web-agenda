@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<link href="main.css" rel="stylesheet" title="Style" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Reponse2</title>
+	</head>
+
+	<body>
+
+<section id="ethiopathie"> 
+<div id="conteneur">
+
+	<div>
+	Question 2: <br>
+	Quelle est la racine du mot ethiopathie ?  
+	</div>
+
+	<div class="B">
+    <table width="400" border="0">
+	<tr>
+		<td>1943: <red>Faux</red> </td>
+		<td>1953: <green>Vrai</green> </td>
+	</tr>
+	<tr>
+		<td>1963: <red>Faux</red> </td>
+		<td>1973: <red>Faux</red> </td>
+	</tr>
+	<tr><td colspan="2"> <p></p> </td> 
+	</tr>
+	<tr>
+		<td colspan="2">C'est Christian Tredaniel en 1953 qui publie l'ouvrage fondateur: </td>
+	</tr>
+	<tr>   
+		<td colspan="2">"Principe fondamentaux pour une medecine ethiopathique". </td>
+	</tr>
+    </table>
+	</div>
+	<br/>
+		<button class="button big" id="Suivant"> Suivant </button>
+</div>
+</section> 
+
+<!-- Fonction qui permet de raffraichir la partie Quizz de la page accueil.html -->
+<!-- Va remplacer tout le contenu du div "conteneur" par la page Question3.html -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $('#Suivant').click(function() {
+          $('#conteneur').load('Question3.html', function() {
+            });
+        });
+      });
+    </script>
+  </body>
+</html>

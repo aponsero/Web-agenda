@@ -1,0 +1,52 @@
+#form
+{
+margin:auto;
+background-color:silver;
+text-align:left;
+border-radius:5px
+}
+#titre
+{
+padding-top:1%;
+padding-bottom:1%;
+font-family:"Times New Roman", Times, serif;
+border-bottom:5px solid grey;
+text-align:center
+}
+p
+{
+font-family:"Times New Roman", Times, serif;
+color : red;
+border-bottom:1px solid red
+}
+em
+{
+color : red;
+}	
+.label
+{
+font-family:"Times New Roman", Times, serif;
+text-align:center
+}
+.champ
+{
+border-radius:5px;
+padding:2%;
+width:70%
+}
+.petitchamp
+{
+border-radius:5px;
+}
+#submit
+{
+margin-top:2%;
+border-radius:5px;
+font-family:"Times New Roman", Times, serif;
+}
+#reset
+{
+margin-top:2%;
+border-radius:5px;
+font-family:"Times New Roman", Times, serif;
+}

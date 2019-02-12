@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<link href="main.css" rel="stylesheet" title="Style" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Reponse1</title>
+	</head>
+
+	<body>
+
+<section id="ethiopathie">
+<div id="conteneur">
+
+	<div>
+	Question 1: <br>
+	Quelle est la racine du mot ethiopathie ?  
+	</div>
+
+	<div class="B">
+    <table width="400" border="0">
+		<tr>
+			<td>aitia pathos: <green>Vrai</green> </td>
+			<td>aitio pathis: <red>Faux</red> </td>
+		</tr>
+		<tr>
+			<td>aitii pathus: <red>Faux</red> </td>
+			<td>aitiu pathas: <red>Faux</red> </td>
+		</tr>
+		<tr><td colspan="2">  <p></p>  </td></tr>
+	</table>	
+	</div>
+		
+<div class="A">
+Le mot "ethiopathie tire ses origines du grec: <br/>
+aitia"  => cause & "pathos" => souffrance
+</div>		
+<br/>      	   
+		<button  class="button big" id="Suivant"> Suivant </button>
+</div>
+</section>
+
+<!-- Fonction qui permet de raffraichir la partie Quizz de la page accueil.html -->
+<!-- Va remplacer tout le contenu du div "conteneur" par la page Question2.html -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $('#Suivant').click(function() {
+          $('#conteneur').load('Question2.html', function() {
+            });
+        });
+      });
+    </script>
+
+       
+    </form>
+  </body>
+</html>

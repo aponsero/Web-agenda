@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<link href="main.css" rel="stylesheet" title="Style" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Question3</title>
+	</head>
+
+	<body>
+
+<section id="ethiopathie"> 
+<div id="conteneur">
+
+	<div class="A">Question 3: <br>
+	Un éthiopathe peut il prescrire des médicaments ? 
+	</div>
+
+	<div class="B">
+	<table width="400" border="0">
+	 
+	<tr>
+		<td> Oui <input name="ouinon" type="radio" value="0" checked="1" /> </td>
+		<td> Non <input name="ouinon" type="radio" value="1" /> </td>
+	</tr>
+	</table> 
+	</div>
+	<br/>
+	<button class="button big" id="Reponse">  Reponse </button>
+</div>
+</section> 
+    
+<!-- Fonction qui permet de raffraichir la partie Quizz de la page accueil.html -->
+<!-- Va remplacer tout le contenu du div "conteneur" par la page Reponse3.html -->	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $('#Reponse').click(function() {
+          $('#conteneur').load('Reponse3.html', function() {
+            });
+        });
+      });
+    </script>
+  </body>
+</html>

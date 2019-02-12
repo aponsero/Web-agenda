@@ -1,0 +1,104 @@
+
+/*------------- Basic reset -------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;        
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+}
+body{    
+    background:grey; 
+    font-family: 'Droid Sans', sans-serif;
+    line-height: 1;
+    font-size: 16px; }
+
+/*------ utiltity classes -----*/
+
+.fl{ float:left; }
+.fr{ float: right; }
+
+/*its also known as clearfix*/
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;  /*For IE 6/7 (trigger hasLayout) */
+}
+.form-container {
+    width: 350px;
+    margin: 100px auto;
+    text-align: center;
+    overflow: hidden;    
+    -webkit-border-radius: 5px;
+/*    -moz-border-radius: 0.312rem;*/
+    border-radius: 5px;
+}
+.form-header,.form-footer{
+    background: White;
+    color: red;
+    text-transform: uppercase;
+}
+.form-container .form-header {                
+    font-size: 1.2rem;
+    padding: 1.30rem;        
+}
+.form-container .form-content {
+    background: white;
+}
+.form-content fieldset{    
+    padding: 1rem;
+    border: 1px; 
+	border-color:red;
+}
+.form-content input[type="text"],.form-content input[type="password"],.form-input-control,.form-content input[type="submit"],.form-input-submit{
+    display: block;
+    width: 100%;
+    margin:0 auto;        
+    -webkit-border-radius: 0.125rem;
+    -moz-border-radius: 0.125rem;
+    border-radius: 0.125rem;
+}
+.form-content input[type="text"],.form-content input[type="password"],.form-input-control{
+    padding: 0.925rem;
+    border: 1px solid #DBD1CE;
+    background: #FFF3F0;    
+}
+.form-content input[type="submit"],.form-input-submit{
+    background: #fa8469;
+    padding: 0.925rem;
+    margin-top: 0.925rem;
+    color: #EDEAE7;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border: none;    
+    border-top: 1px solid #FD9A83;
+    border-bottom: 1px solid #F17457;
+}
+.form-footer{    
+    line-height: 1.9;        
+}
+.footer-text{
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.56rem 0 0 1.25rem;
+}
+.social-container a{
+    text-decoration: none;
+    color: #b8eae6;
+    font-size: 1.7rem;
+    padding: 0.625rem 1.25rem;
+}
+.social-container a:hover{
+    background: #6B6A6A;
+}

@@ -1,0 +1,13 @@
+/* agenda custom css*/
+	body {
+	  height: 100%;
+	  padding-top: 70px;
+	}
+	#calendar {
+		max-width: 800px;
+		padding-bottom: 10px;
+	}
+	.col-centered{
+		float: none;
+		margin: 0 auto;
+	}

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<link href="main.css" rel="stylesheet" title="Style" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Reponse3</title>
+	</head>
+
+	<body>
+
+<section id="ethiopathie"> 
+<div id="conteneur">
+
+	<div>
+	Question 3: <br>
+	Un éthiopathe peut il prescrire des médicaments ?  
+	</div>
+
+	<div class="B">
+    <table width="400" border="0">
+	<tr>
+		<td>oui: <red>Faux</red> </td>
+		<td>non: <green>Vrai</green> </td>
+	</tr>
+	<tr>
+		<td colspan="2"> <p></p> </td> 
+	</tr>
+	<tr>
+		<td colspan="2">Non, un éthiopathe ne préscrit pas de médicament, et n'utilise pas non plus d'appareil. Ses seuls outils sont ses mains. </td>
+	</tr>
+    </table>	     
+	</div>
+	<br/>
+		<button class="button big" id="Suivant"> Suivant </button>
+</div>
+</section> 
+
+<!-- Fonction qui permet de raffraichir la partie Quizz de la page accueil.html -->
+<!-- Va remplacer tout le contenu du div "conteneur" par la page Question4.html -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $('#Suivant').click(function() {
+          $('#conteneur').load('Question4.html', function() {
+            });
+        });
+      });
+    </script>
+  </body>
+</html>

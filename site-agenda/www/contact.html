@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>      
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Nolwenn Thomas, éthiopathie, cabinet, saint-quay Portrieux">
+		<meta http-equiv="Content-Language" content="fr">
+		<meta name="author" content="Alise Ponsero">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="googlebot" content="noindex,nofollow">
+		
+		<title>Contact</title>
+		<link rel='index' title='Cabinet Nolwenn Thomas' href='http://www.Cabinet_nolwenn_Thomas.fr' />
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		
+		<!-- CSS -->
+        <link href="css/main.css" rel="stylesheet" title="Style" />
+		
+		<!-- script-->
+		<script>
+			function temp(){
+				document.getElementById('form').action = "mailto:adressemail@gmail.com?subject=[Question_cabinet_osthéopate]" }
+		</script>
+	</head>
+	
+	<body>
+	
+		<!-- Header -->
+		<header>
+			<a href="#home" class="logo" data-scroll><img src="images/logo_ethiopathie.jpg" alt="logo"></a> 
+			<ul> 
+				<li class="active"><a href="#cabinet" data-scroll>Le cabinet</a></li> 
+				<li><a href="#ethiopathie" data-scroll>Ethiopathie</a></li> 
+				<li><a href="#faq" data-scroll>FAQ</a></li> 
+			</ul> 
+			<hr>
+		</header>
+
+		<section class="items" id="questions">
+		
+			<div class="item_center">
+					
+				<h2>Formulaire de contact</h2>
+					
+				<div id="formulairecontact">	
+					<form method="post" action="#" onsubmit="temp()" id="form" enctype="text/plain">
+						<p><span class="important">*</span> Champs obligatoires</p>
+						<table>
+							<tr>
+								<td><span class="important">*</span><label for="nom"> Nom : </td>
+								<td><input type="text" id="nom" name="nom" maxlength="50" required="required" autofocus="autofocus" /></td>
+							</tr>
+							<tr>
+								<td><span class="important">*</span><label for="prenom"> Prénom :</td> 
+								<td><input type="text" id="prenom" name="prenom" maxlength="50" required="required"/></td>
+							</tr>
+							<tr>
+								<td><span class="important">*</span><label for="mail"> Mail :</td> 
+								<td><input type="text" id="email" name="mail" maxlength="50"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required="required"/></td>
+							</tr>
+						</table>
+						<p>
+						Votre message: <br>
+						<label for="message"><textarea id="message" name="comment" rows="10" cols="50" placeholder="Votre message... " ></textarea>
+						</p>
+						<input type="submit" value="Envoyer" />
+						<input type="reset" value="Réinitialiser"  />
+					</form>
+				</div>
+			</div>
+		
+		</section>
+		
+		<!--Footer -->
+		<hr>
+		<footer id="footer">
+			<div>
+				<a href="index.php">Accueil</a> - 
+				<a href="mentions_legales.html">Mentions legales</a> - 
+				<a href="contact.html">Contact</a> - 
+				<a href="connexion_admin.php">accès admin</p>
+			</div>
+		</footer>
+		
+	</body>
+
+</html>

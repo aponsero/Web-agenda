@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="css/connexioncss2.css" rel="stylesheet" title="Style" />
+        <title>demande de réinitialisation de mot de passe</title>
+    </head>
+
+<body>
+
+    <!-- form container -->
+    <div class="form-container">
+        <!-- form header -->
+        <h1 class="form-header heading-color">Mot de passe oublié ?</h1>
+        <!-- end of form header -->
+        <!-- form content -->
+        <form action="../includes/espaceClient/oubli/mailOubli.php" method="post" class="form-content">
+            <fieldset>
+			<p>Vous avez oublié votre mot de passe ? </br> Pas de panique ! </br>
+			Indiquez-nous votre adresse email et nous vous 
+			renverrons un nouveau mot de passe par email. </br> Pensez à regarder dans votre 
+			dossier Spam si vous ne voyez pas arriver notre email.</p></br></br>
+              <input type="text" placeholder="Email" id="mail" name="mail" class="form-input-control" />
+                <input type="submit" value="Envoyer!" class="form-submit-control" />
+            </fieldset>
+        </form>
+        <!-- end of form-content -->
+
+        <!-- end of From footer -->
+    <div style="clear:both;"></div>
+	
+    </div>
+    <!-- end of form container -->
+</body>
+</html>
